@@ -1,0 +1,408 @@
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.navegacao {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 50%;
+    background-color: rgba(235, 235, 235, 0.74);
+}
+
+.login {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+    background-color: red;
+}
+
+#menu {
+    text-decoration: none;
+    color: black;
+}
+
+#menu:hover {
+    transform: scale(1.2);
+}
+
+#login {
+    background-color: red;
+    color: white;
+    text-decoration: none;
+    padding: 5px 5px 5px 5px;
+    border-radius: 3px;
+}
+
+#login:hover {
+    transform: scale(1.2);
+}
+
+#cartoes {
+    background-image: contain;
+}
+
+.abertura {
+    display: flex;
+    flex-direction: column;
+}
+
+.apresentacao {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    background-color: rgba(235, 235, 235, 0.74);
+    align-items: center;
+}
+
+.paginicial {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 700px;
+}
+
+.cartoes {
+    display: flex;
+    width: 50%;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+}
+
+.abertura {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#celularred {
+    width: 279.16px;
+    height: 604.47px;
+    top: 1254.93px;
+    left: 478.42px;
+}
+
+.informacoes {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.titulo {
+    display: flex;
+    width: 50%;
+    flex-direction: column;
+    height: 50%;
+    padding-left: 50px;
+}
+
+.dinheiro {
+    display: flex;
+    width: 50%;
+    height: 200px;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.conta {
+    display: flex;
+    width: 50%;
+    height: 200px;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.cartao {
+    display: flex;
+    width: 50%;
+    height: 200px;
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+.fotocelular {
+    display: flex;
+    width: 50%;
+    justify-content: center;
+}
+
+.caixas {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding: 50px 150px 10px 30px;
+
+}
+
+.caixas2 {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px 50px 150px;
+    justify-content: space-evenly;
+
+}
+
+.vantagens {
+    display: flex;
+    flex-direction: column;
+}
+
+.tituloinova {
+    display: flex;
+    flex-direction: column;
+    padding-left: 100px;
+    justify-content: space-evenly;
+}
+
+.card1 {
+    border: red solid;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.card2 {
+    border: red solid;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.card3 {
+    border: red solid;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.card4 {
+    border: red solid;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.card5 {
+    border: red solid;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    border-radius: 5px;
+}
+
+.card6 {
+    border: red solid;
+    padding: 10px 10px 10px 10px;
+    width: 350px;
+    border-radius: 5px;
+
+}
+
+.comentarios {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between
+}
+
+.comentarios1 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 5px 5px 5px 5px;
+}
+
+.comentarios2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 5px 5px 5px 5px;
+}
+
+.comentarios3 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    padding: 5px 5px 5px 5px;
+}
+
+.feedback {
+    background-color: azure;
+    padding: 100px 100px 100px 100px;
+}
+
+.experienciafinanceira {
+    display: flex;
+    width: 25%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logoteslabank {
+    display: flex;
+    width: 25%;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.botaoapp {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.botao {
+    width: 160px;
+    height: 40px;
+}
+
+#LogoTeslaBank {
+    width: 20px;
+    height: 20px;
+}
+
+#fotocifrão {
+    width: 100px;
+    height: 100px;
+}
+
+#contadigital {
+    width: 100px;
+    height: 100px;
+}
+
+#anuidade {
+    width: 100px;
+    height: 100px;
+}
+
+
+.botao01 {
+    width: 160px;
+    height: 40px;
+    border: none;
+    background-color: rgb(236, 62, 62);
+    color: white;
+    border-radius: 3px;
+}
+
+.botao01:hover {
+    transform: scale(1.2);
+}
+
+.baixar {
+    display: flex;
+    flex-direction: row;
+    height: 700px;
+    justify-content: space-evenly;
+    background-color: aliceblue;
+}
+
+.botao {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(236, 62, 62);
+    color: white;
+}
+
+.botao:hover {
+    transform: scale(1.1);
+}
+
+.botao1 {
+    width: 150px;
+    height: 40px;
+    border: none;
+    border-radius: 3px;
+    background-color: rgb(236, 62, 62);
+    color: white;
+}
+
+.botao1:hover {
+    transform: scale(1.1);
+}
+
+
+.duvidas {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(199, 194, 218);
+    padding: 0px 0px 100px 0px;
+}
+
+.duvidas1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(199, 194, 218);
+    border-bottom: 1px solid grey;
+
+}
+
+.duvidas01 {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 0px 0px 10px;
+}
+
+.duvidas011 {
+    display: flex;
+    flex-direction: column;
+}
+
+.duvidas2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(199, 194, 218);
+    border-bottom: 1px solid grey;
+}
+
+.duvidas02 {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 0px 0px 10px;
+}
+
+.duvidas022 {
+    display: flex;
+    flex-direction: column;
+}
+
+.duvidas3 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    background-color: rgb(199, 194, 218);
+    border-bottom: 1px solid grey;
+}
+
+.duvidas03 {
+    display: flex;
+    align-items: flex-start;
+    padding: 15px 0px 0px 10px;
+}
+
+.duvidas033 {
+    display: flex;
+    flex-direction: column;
+}
+
+h3 {
+    border-left: 2px solid red;
+    padding-left: 5px;
+}
+
+#smartphone {
+    width: 30px;
+    height: 30px;
+}
